@@ -1,13 +1,2 @@
-
-*.pdb
-*.opendb
-*.sln
-*.sdf
 *.exe
 *.tlog
-*.filters
-*.vcxproj
-*.idb
-*.obj
-*.log
-*.ilk
