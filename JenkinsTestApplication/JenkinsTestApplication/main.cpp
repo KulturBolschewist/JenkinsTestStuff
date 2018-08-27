@@ -21,11 +21,13 @@ TEST(set1, works) {
 TEST(set1, fails) {
 	c1 Test_class;
 
-	Test_class.adder(17);
+	Test_class.adder(17)
 
 	EXPECT_EQ(Test_class.get(), 27);
 
 }
+
+//JenkinsTestApplication --gtest_output="xml:\home\user\XML_Report.xml"
 
 int main(int argc, char* argv[]) {
 	testing::InitGoogleTest(&argc , argv);
