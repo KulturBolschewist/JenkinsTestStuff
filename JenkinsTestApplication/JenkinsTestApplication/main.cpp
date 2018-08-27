@@ -21,7 +21,7 @@ TEST(set1, works) {
 TEST(set1, fails) {
 	c1 Test_class;
 
-	Test_class.adder(27);
+	Test_class.adder(17);
 
 	EXPECT_EQ(Test_class.get(), 27);
 
