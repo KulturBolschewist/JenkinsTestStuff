@@ -19,7 +19,7 @@ TEST(set1, fails) {
 
 	Test_class.adder(27);
 
-	EXPECT_EQ(Test_class.get(), 17);
+	EXPECT_EQ(Test_class.get(), 27);
 
 }
 
