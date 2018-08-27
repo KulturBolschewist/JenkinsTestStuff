@@ -2,6 +2,10 @@
 
 #include <gtest/gtest.h>
 #include "c1.h"
+
+#include <fstream>
+
+
 using namespace std;
 
 
@@ -27,7 +31,13 @@ int main(int argc, char* argv[]) {
 	testing::InitGoogleTest(&argc , argv);
 	cout << RUN_ALL_TESTS();
 
+
+	std::ofstream out("output.txt");
+
+	out << "Dies ist ein Test";
+	out.close();
+
 	system("PAUSE");
 
-	return 0;
+	return RUN_ALL_TESTS();
 }
