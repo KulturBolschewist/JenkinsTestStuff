@@ -1,1 +1,57 @@
-﻿  JenkinsTestApplication.vcxproj -> C:\Users\thors\Documents\GitHub\JenkinsTestStuff\JenkinsTestApplication\x64\Debug\JenkinsTestApplication.exe
+﻿  main.cpp
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest-message.h(224): warning C4251: "testing::Message::ss_": class "testing::internal::scoped_ptr<std::stringstream>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::Message" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\internal\gtest-filepath.h(200): warning C4251: "testing::internal::FilePath::pathname_": class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::internal::FilePath" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\internal\gtest-internal.h(148): warning C4275: class "std::runtime_error" ist keine DLL-Schnittstelle und wurde als Basisklasse für die DLL-Schnittstelle class "testing::internal::GoogleTestFailureException" verwendet
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\stdexcept(166): note: Siehe Deklaration von "std::runtime_error"
+  c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\internal\gtest-internal.h(148): note: Siehe Deklaration von "testing::internal::GoogleTestFailureException"
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\internal\gtest-internal.h(589): warning C4251: "testing::internal::TypedTestCasePState::registered_tests_": class "std::map<std::string,testing::internal::CodeLocation,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::internal::TypedTestCasePState" verwendet wird
+          with
+          [
+              _Kty=std::string,
+              _Ty=testing::internal::CodeLocation
+          ]
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\internal\gtest-death-test-internal.h(134): warning C4251: "testing::internal::DeathTest::last_death_test_message_": class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::internal::DeathTest" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest-test-part.h(111): warning C4251: "testing::TestPartResult::file_name_": class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestPartResult" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest-test-part.h(115): warning C4251: "testing::TestPartResult::summary_": class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestPartResult" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest-test-part.h(116): warning C4251: "testing::TestPartResult::message_": class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestPartResult" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest-test-part.h(140): warning C4251: "testing::TestPartResultArray::array_": class "std::vector<testing::TestPartResult,std::allocator<_Ty>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestPartResultArray" verwendet wird
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest-test-part.h(162): warning C4275: class "testing::TestPartResultReporterInterface" ist keine DLL-Schnittstelle und wurde als Basisklasse für die DLL-Schnittstelle class "testing::internal::HasNewFatalFailureHelper" verwendet
+  c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest-test-part.h(146): note: Siehe Deklaration von "testing::TestPartResultReporterInterface"
+  c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest-test-part.h(162): note: Siehe Deklaration von "testing::internal::HasNewFatalFailureHelper"
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(335): warning C4251: "testing::AssertionResult::message_": class "testing::internal::scoped_ptr<std::string>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::AssertionResult" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(455): warning C4251: "testing::Test::gtest_flag_saver_": class "testing::internal::scoped_ptr<testing::internal::GTestFlagSaver>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::Test" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(621): warning C4251: "testing::TestResult::test_part_results_": class "std::vector<testing::TestPartResult,std::allocator<_Ty>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestResult" verwendet wird
+          with
+          [
+              _Ty=testing::TestPartResult
+          ]
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(623): warning C4251: "testing::TestResult::test_properties_": class "std::vector<testing::TestProperty,std::allocator<_Ty>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestResult" verwendet wird
+          with
+          [
+              _Ty=testing::TestProperty
+          ]
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(751): warning C4251: "testing::TestInfo::test_case_name_": class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestInfo" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(752): warning C4251: "testing::TestInfo::name_": class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestInfo" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(755): warning C4251: "testing::TestInfo::type_param_": class "testing::internal::scoped_ptr<const std::string>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestInfo" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(758): warning C4251: "testing::TestInfo::value_param_": class "testing::internal::scoped_ptr<const std::string>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestInfo" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(759): warning C4251: "testing::TestInfo::location_": struct "testing::internal::CodeLocation" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestInfo" verwendet wird
+  c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\internal\gtest-internal.h(504): note: Siehe Deklaration von "testing::internal::CodeLocation"
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(931): warning C4251: "testing::TestCase::name_": class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestCase" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(934): warning C4251: "testing::TestCase::type_param_": class "testing::internal::scoped_ptr<const std::string>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestCase" verwendet wird
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(937): warning C4251: "testing::TestCase::test_info_list_": class "std::vector<testing::TestInfo *,std::allocator<_Ty>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestCase" verwendet wird
+          with
+          [
+              _Ty=testing::TestInfo *
+          ]
+c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages\googletest.1.8.2\build\native\include\gtest\gtest.h(941): warning C4251: "testing::TestCase::test_indices_": class "std::vector<int,std::allocator<_Ty>>" erfordert eine DLL-Schnittstelle, die von Clients von class "testing::TestCase" verwendet wird
+          with
+          [
+              _Ty=int
+          ]
+  c1.cpp
+  Code wird generiert...
+  JenkinsTestApplication.vcxproj -> C:\Users\thors\Documents\GitHub\JenkinsTestStuff\JenkinsTestApplication\x64\Debug\JenkinsTestApplication.exe
