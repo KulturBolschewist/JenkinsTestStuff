@@ -52,4 +52,4 @@ c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\packages
           [
               _Ty=int
           ]
-c:\users\thors\documents\github\jenkinsteststuff\jenkinstestapplication\jenkinstestapplication\main.cpp(26): error C2143: Syntaxfehler: Es fehlt ";" vor "switch"
+  JenkinsTestApplication.vcxproj -> C:\Users\thors\Documents\GitHub\JenkinsTestStuff\JenkinsTestApplication\Debug\JenkinsTestApplication.exe
